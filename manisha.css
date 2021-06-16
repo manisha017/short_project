@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: rgb(51, 51, 51);
+    font-family: 'Luckiest Guy', cursive;  
+    font-size: 1.1rem; 
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .container{
+    display: flex;
+    height: 100vh;
+    /* width: 100%; */
+    background: #FDC830;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #F37335, #FDC830);  */
+    background: -webkit-linear-gradient(to right, #f3e6df, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg,#f3e6df 7%, #eca07a 35%, #FDC830 85%,white 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  path {
+    fill: transparent;
+  }
+  
+  text {
+    fill: #050505;
+    display: inline;
+  }
+  svg
+  {
+    margin-left: 50px;
+     padding-top: 20px;
+  }
+  .des{
+      position:relative ;
+      margin-top: 350px;
+     float: right;
+    
+      
+  }
+   h3{
+      font-size: 4vw;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+   h4{
+      font-size: 2vw;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      line-height: 4vw;
+      font-weight: lighter;
+  }
+
+  
+  @media only screen and (max-width: 600px) {
+    body{
+      width: 100vw;
+      height: 80vh;
+    }
+    svg{
+      padding-top: 10px;
+      margin-left: 0px;
+      position: fixed;
+      transform:  rotate(12deg);
+      width: 100vw;
+      height: 100vh;
+      padding-left: 0px;
+      bottom: 0;
+      right: 0;
+
+    }
+    .des{
+      position:relative ;
+      margin-top: 400px;
+      padding-left: 300px;
+     margin-right: 15px;
+     padding-top: 30px;
+    }
+    h3{
+      font-size: 8vw;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  h4{
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 4vw;
+    font-weight: lighter;
+}
+  }
+  
