@@ -61,7 +61,7 @@ body {
     svg{
       padding-top: 10px;
       margin-left: 0px;
-      position: fixed;
+      position: fixed;         
       transform:  rotate(12deg);
       width: 100vw;
       height: 100vh;
